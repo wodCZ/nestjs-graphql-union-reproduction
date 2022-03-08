@@ -1,0 +1,17 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  shape: Shape!
+}
+
+union Shape = Square | Circle
+
+type Square {
+  side: Int!
+}
+
+type Circle {
+  radius: Int!
+}
